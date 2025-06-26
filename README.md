@@ -1,6 +1,6 @@
 # LaTeX-based CV Template
 
-A clean and customizable LaTeX resume template designed for job applications. This repository contains a structured template (`resume.cls`) and a sample resume (`main.tex`) with simulated content to demonstrate how to effectively present your background, skills, and achievements.
+A clean and customizable LaTeX resume template designed for job applications. This repository contains a structured template (`resume.cls`) and a sample resume (`resume.tex`) with simulated content to demonstrate how to effectively present your background, skills, and achievements.
 
 ## Features
 
