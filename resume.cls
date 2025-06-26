@@ -102,25 +102,22 @@
     \begin{minipage}{0.2\textwidth} % Left-image
         \centering
         \begin{tikzpicture}
-        % Clip image->circle with a 1.5cm radius
-            \clip (0,0) circle(3.0 cm); 
+            % Clip image into circle
+            \clip (0,0) circle(3.0cm); 
             \node at (0,0) {\includegraphics[width=6.5cm,height=6.5cm]{\commandkey{imagepath}}};
         \end{tikzpicture}
     \end{minipage}%
     \begin{minipage}{0.75\textwidth} % Right intro
-        \flushright        {\Huge\bfseries\MakeUppercase{\commandkey{fullname}}}
-        \vspace{1.2em}
-        \hrule width
-        % Role
-        \textbf{\commandkey{role}}
-        \\
-        \vspace{1.3em}
-        % Introduction
+        \flushright
+        {\Huge\bfseries\MakeUppercase{\commandkey{fullname}}}\\
+        \vspace{0.4em}
+        \textbf{\commandkey{role}} \\
+        \vspace{1em}
+        % Contact info
         \faPhone\ \ifcommandkey{phone}{\commandkey{phone}}{}%
         \hspace{1em}
-        \faEnvelope\ \email{\commandkey{email}}%
-        \vspace{0.2em}
-        \\
+        \faEnvelope\ \email{\commandkey{email}} \\
+        \vspace{0.3em}
         \faLinkedin\ \underline{\linkedin{\commandkey{linkedin}}}%
         \hspace{1em}
         \faGithub\ \underline{\profilelink{\commandkey{github}}}%
