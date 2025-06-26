@@ -44,7 +44,7 @@ A clean and customizable LaTeX resume template designed for job applications. Th
 
 ## Preview
 
-[📄 View Resume PDF](templateCV.pdf)[templateCV.jpg] -- Optional: Add preview image of the generated PDF -->
+[[📄 View Resume PDF](templateCV.pdf)](templateCV.jpg)
 
 ---
 
